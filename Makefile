@@ -1,6 +1,6 @@
 ROOT=$(shell pwd)
 JAVA=$(shell which java | head -1)
-JAVAC=$(shell which javacs | head -1)
+JAVAC=$(shell which javac | head -1)
 JAVA_BUILD=${ROOT}/JAVA
 ARCH=$(shell getconf LONG_BIT)
 DIST_DIR=${ROOT}/BIN
